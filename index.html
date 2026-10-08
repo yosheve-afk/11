@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nadia Rahma, CPA | Accountant for people who hate accounting</title>
+  <meta name="description" content="Licensed CPA and certified tax coach. Taxes, bookkeeping, crypto tracking and financial advice, explained like a friend and filed like a machine.">
+  <meta name="theme-color" content="#F1EBFF">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%23FF4F9A'/%3E%3Ctext x='50' y='70' font-size='64' text-anchor='middle' font-family='Arial' font-weight='900' fill='%2317112E'%3EN%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom cursor (activated by script.js on mouse devices only) -->
+  <div class="cursor-ring" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="brand" href="#hero" aria-label="Nadia Rahma, back to top">
+      <span class="brand-mark">N</span>
+      <span class="brand-name">Nadia Rahma</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="sr-only">Menu</span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#sertifikasi">Sertifikasi</a>
+      <a href="#kontak" class="menu-cta">Book a call</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="section hero" id="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            <span class="line" style="--i:0"><span class="hl hl-white">Taxes? Done.</span></span>
+            <span class="line" style="--i:1"><span class="hl hl-pink">Books? Balanced.</span></span>
+            <span class="line" style="--i:2"><span class="hl hl-lime">Money? Fun.</span></span>
+          </h1>
+
+          <p class="hero-sub hero-in" style="--i:4">
+            Hi, I'm Nadia. A licensed CPA who explains money like a friend, files like a machine, and replies faster than your group chat.
+          </p>
+
+          <div class="hero-actions hero-in" style="--i:5">
+            <span class="mag" data-magnetic>
+              <a class="btn-wild" href="#kontak" data-confetti>
+                <span class="btn-label">
+                  <span>Book a free money chat</span>
+                  <span aria-hidden="true">Book a free money chat</span>
+                </span>
+                <span class="btn-arrow" aria-hidden="true">↗</span>
+              </a>
+            </span>
+            <a class="link-ghost" href="#pengalaman">See my track record</a>
+          </div>
+
+          <ul class="trust hero-in" style="--i:6" aria-label="Credentials at a glance">
+            <li>Licensed CPA</li>
+            <li>Certified Tax Coach</li>
+            <li>Replies in 24 hours</li>
+          </ul>
+        </div>
+
+        <div class="hero-art hero-in" style="--i:3">
+          <div class="art-blob" aria-hidden="true"></div>
+
+          <!-- Swap this whole .portrait block's SVG for your photo:
+               <img src="your-photo.jpg" alt="Nadia Rahma smiling at her desk"> -->
+          <div class="portrait">
+            <svg class="portrait-svg" viewBox="0 0 200 250" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Placeholder for a profile photo">
+              <circle cx="100" cy="98" r="42" fill="#17112E"/>
+              <path d="M16 250c0-60 38-96 84-96s84 36 84 96z" fill="#17112E"/>
+              <text x="100" y="222" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBFF3F">YOUR PHOTO HERE</text>
+            </svg>
+          </div>
+
+          <svg class="spin-badge" viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <path id="badge-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
+            </defs>
+            <circle cx="60" cy="60" r="58" fill="#FFD43B" stroke="#17112E" stroke-width="3"/>
+            <text font-family="Bricolage Grotesque, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#17112E" textLength="268" lengthAdjust="spacing">
+              <textPath href="#badge-circle">FILED ON TIME • ALWAYS • NO DRAMA •</textPath>
+            </text>
+            <circle cx="60" cy="60" r="21" fill="#17112E"/>
+            <text x="60" y="66" text-anchor="middle" font-family="Bricolage Grotesque, Arial, sans-serif" font-size="17" font-weight="800" fill="#CBFF3F">CPA</text>
+          </svg>
+
+          <span class="float float-a" data-cursor>Spreadsheet whisperer</span>
+          <span class="float float-b" data-cursor>Tax season survivor</span>
+          <span class="float float-c" data-cursor>Receipts: organized</span>
+        </div>
+      </div>
+
+      <!-- Crossing marquees -->
+      <div class="bands" aria-hidden="true">
+        <div class="band band-pink">
+          <div class="marquee-track">
+            <div class="marquee-group">
+              <span>Not your dad's accountant</span>
+              <span>Not your dad's accountant</span>
+              <span>Not your dad's accountant</span>
+            </div>
+          </div>
+        </div>
+        <div class="band band-ink">
+          <div class="marquee-track marquee-reverse">
+            <div class="marquee-group">
+              <span>Taxes</span><span>Bookkeeping</span><span>Crypto</span><span>Budgets</span><span>Good vibes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PENGALAMAN KERJA ============ -->
+    <section class="section section-yellow" id="pengalaman">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 class="sec-title">Pengalaman Kerja</h2>
+          <p class="sec-note">Work experience, minus the boring resume layout.</p>
+        </div>
+
+        <!-- Replace the placeholder roles, companies, dates and descriptions with your own -->
+        <ol class="timeline">
+          <li class="xp reveal" style="--c: var(--pink)">
+            <article class="xp-card">
+              <span class="xp-dur">2023 – Now</span>
+              <h3>Senior Accountant &amp; Tax Lead</h3>
+              <p class="xp-co">Lumen Studio Group</p>
+              <p>Rebuilt the month-end close from 12 days to 4. Nobody cried this quarter.</p>
+              <ul class="tags"><li>Month-end close</li><li>Tax strategy</li><li>Team of 5</li></ul>
+            </article>
+          </li>
+
+          <li class="xp reveal" style="--c: var(--lime)">
+            <article class="xp-card">
+              <span class="xp-dur">2021 – 2023</span>
+              <h3>Financial Analyst</h3>
+              <p class="xp-co">Kopi Kita Roasters</p>
+              <p>Turned 40 outlets of messy receipts into one dashboard the owners actually open.</p>
+              <ul class="tags"><li>Budgeting</li><li>Dashboards</li><li>Cost control</li></ul>
+            </article>
+          </li>
+
+          <li class="xp reveal" style="--c: var(--blue)">
+            <article class="xp-card">
+              <span class="xp-dur xp-dur-light">2019 – 2021</span>
+              <h3>Tax Consultant</h3>
+              <p class="xp-co">Garuda &amp; Partners</p>
+              <p>Filed 200+ personal and small-business returns. Found refunds people didn't know they had.</p>
+              <ul class="tags"><li>Individual returns</li><li>SME tax</li><li>Refund hunting</li></ul>
+            </article>
+          </li>
+
+          <li class="xp reveal" style="--c: var(--mint)">
+            <article class="xp-card">
+              <span class="xp-dur">2017 – 2019</span>
+              <h3>Audit Associate</h3>
+              <p class="xp-co">Big Four Firm</p>
+              <p>Learned where every number hides. Now I use that power for good.</p>
+              <ul class="tags"><li>Audit</li><li>Compliance</li><li>Reconciliation</li></ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ KEAHLIAN & LAYANAN ============ -->
+    <section class="section section-mint" id="keahlian">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 class="sec-title">Keahlian &amp; Layanan</h2>
+          <p class="sec-note">Skills and services. Pick one, or stack a few.</p>
+        </div>
+
+        <h3 class="sub-title reveal">What I can do for you</h3>
+        <ul class="svc-grid" data-stagger>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: var(--pink)">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">%</span>
+              <h3>Tax Prep</h3>
+              <p>Personal, freelancer and small-business returns, filed right and filed early.</p>
+              <ul class="tags"><li>Deductions</li><li>Quarterly estimates</li></ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: var(--yellow)">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">₿</span>
+              <h3>Crypto Tracking</h3>
+              <p>Every swap, stake and airdrop reconciled into one clean, reportable record.</p>
+              <ul class="tags"><li>Gains &amp; losses</li><li>Wallet imports</li></ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: var(--lime)">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">↗</span>
+              <h3>Financial Advisory</h3>
+              <p>Budgets, goals and a plan that fits your actual life, not a textbook one.</p>
+              <ul class="tags"><li>Goal planning</li><li>Cash flow</li></ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: #fff">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">≡</span>
+              <h3>Bookkeeping</h3>
+              <p>Clean books every month, so tax time is just another Tuesday.</p>
+              <ul class="tags"><li>Monthly close</li><li>Invoicing</li></ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: var(--orange)">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">◎</span>
+              <h3>Startup Finance</h3>
+              <p>Runway math, investor-ready numbers and a finance setup that scales with you.</p>
+              <ul class="tags"><li>Runway</li><li>Reporting</li></ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="svc tilt" data-tilt style="--c: var(--paper)">
+              <span class="glare" aria-hidden="true"></span>
+              <span class="svc-ico" aria-hidden="true">✦</span>
+              <h3>Creator &amp; Freelancer Setup</h3>
+              <p>Separate the money, price your work properly, and pay yourself on purpose.</p>
+              <ul class="tags"><li>Pricing</li><li>Business setup</li></ul>
+            </article>
+          </li>
+        </ul>
+
+        <h3 class="sub-title sub-title-tools reveal">Tools I live in</h3>
+        <ul class="stickers" data-stagger>
+          <li class="reveal"><span class="sticker" style="--c: var(--lime); --r: -4deg" data-cursor>QuickBooks</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--pink); --r: 3deg" data-cursor>Xero</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--yellow); --r: -2deg" data-cursor>Jurnal.id</span></li>
+          <li class="reveal"><span class="sticker" style="--c: #fff; --r: 4deg" data-cursor>Accurate Online</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--orange); --r: -5deg" data-cursor>Excel wizardry</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--paper); --r: 2deg" data-cursor>Google Sheets</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--pink); --r: -3deg" data-cursor>Koinly</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--lime); --r: 5deg" data-cursor>Notion</span></li>
+          <li class="reveal"><span class="sticker" style="--c: #fff; --r: -2deg" data-cursor>Power BI</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--yellow); --r: 3deg" data-cursor>Zoho Books</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--paper); --r: -4deg" data-cursor>Stripe</span></li>
+          <li class="reveal"><span class="sticker" style="--c: var(--orange); --r: 2deg" data-cursor>Wave</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERTIFIKASI ============ -->
+    <section class="section section-blue" id="sertifikasi">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 class="sec-title">Sertifikasi</h2>
+          <p class="sec-note">Certifications you can check. Tilt the tickets, they shine.</p>
+        </div>
+
+        <!-- Replace issuers, years and ID numbers with your real credentials -->
+        <ul class="ticket-grid" data-stagger>
+          <li class="reveal">
+            <article class="ticket tilt" data-tilt style="--c: var(--lime)">
+              <span class="glare holo" aria-hidden="true"></span>
+              <div class="ticket-main">
+                <p class="ticket-issuer">State Board of Accountancy</p>
+                <h3>Certified Public Accountant</h3>
+                <p class="ticket-status"><span class="dot" aria-hidden="true"></span>Active license</p>
+              </div>
+              <div class="ticket-stub">
+                <span class="stub-abbr">CPA</span>
+                <span class="stub-meta">Since 2019</span>
+                <span class="stub-meta">ID 000000</span>
+              </div>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="ticket tilt" data-tilt style="--c: var(--pink)">
+              <span class="glare holo" aria-hidden="true"></span>
+              <div class="ticket-main">
+                <p class="ticket-issuer">Tax Coach Institute</p>
+                <h3>Certified Tax Coach</h3>
+                <p class="ticket-status"><span class="dot" aria-hidden="true"></span>Active certification</p>
+              </div>
+              <div class="ticket-stub">
+                <span class="stub-abbr">CTC</span>
+                <span class="stub-meta">Since 2021</span>
+                <span class="stub-meta">ID 000000</span>
+              </div>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="ticket tilt" data-tilt style="--c: var(--yellow)">
+              <span class="glare holo" aria-hidden="true"></span>
+              <div class="ticket-main">
+                <p class="ticket-issuer">Intuit</p>
+                <h3>QuickBooks ProAdvisor</h3>
+                <p class="ticket-status"><span class="dot" aria-hidden="true"></span>Active certification</p>
+              </div>
+              <div class="ticket-stub">
+                <span class="stub-abbr">QBO</span>
+                <span class="stub-meta">Since 2022</span>
+                <span class="stub-meta">ID 000000</span>
+              </div>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="ticket tilt" data-tilt style="--c: var(--mint)">
+              <span class="glare holo" aria-hidden="true"></span>
+              <div class="ticket-main">
+                <p class="ticket-issuer">Xero</p>
+                <h3>Xero Certified Advisor</h3>
+                <p class="ticket-status"><span class="dot" aria-hidden="true"></span>Active certification</p>
+              </div>
+              <div class="ticket-stub">
+                <span class="stub-abbr">XCA</span>
+                <span class="stub-meta">Since 2022</span>
+                <span class="stub-meta">ID 000000</span>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ KONTAK ============ -->
+    <section class="section section-ink" id="kontak">
+      <div class="container">
+        <div class="sec-head reveal">
+          <h2 class="sec-title">Let's talk money</h2>
+          <p class="sec-note">Fill in the blanks. I'll handle the rest.</p>
+        </div>
+
+        <!-- Hook this form up to a backend (Formspree, Netlify Forms, your own API) in script.js -->
+        <form class="madlib reveal" id="contact-form" novalidate>
+          <p class="madlib-line">
+            Hey Nadia! I'm
+            <label class="sr-only" for="f-name">Your name</label>
+            <input class="ml-field" id="f-name" name="name" type="text" placeholder="your name" autocomplete="name" required>
+            and I need help with
+            <label class="sr-only" for="f-topic">What you need help with</label>
+            <select class="ml-field ml-select" id="f-topic" name="topic" required>
+              <option value="" disabled selected>pick one</option>
+              <option>tax prep</option>
+              <option>crypto tracking</option>
+              <option>financial advice</option>
+              <option>bookkeeping</option>
+              <option>startup finance</option>
+              <option>something else</option>
+            </select>.
+            You can reach me at
+            <label class="sr-only" for="f-email">Your email</label>
+            <input class="ml-field" id="f-email" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>.
+          </p>
+
+          <label class="sr-only" for="f-msg">More details</label>
+          <textarea class="ml-area" id="f-msg" name="message" rows="4" placeholder="Anything else I should know? Deadlines, receipts, chaos levels..."></textarea>
+
+          <div class="form-foot">
+            <span class="mag" data-magnetic>
+              <button class="btn-wild btn-lime" type="submit">
+                <span class="btn-label">
+                  <span>Send it to Nadia</span>
+                  <span aria-hidden="true">Send it to Nadia</span>
+                </span>
+                <span class="btn-arrow" aria-hidden="true">↗</span>
+              </button>
+            </span>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <ul class="socials" data-stagger>
+          <li class="reveal">
+            <a class="social" href="https://www.tiktok.com/" target="_blank" rel="noopener" style="--c: var(--pink)">
+              <span class="social-name">TikTok</span>
+              <span class="social-handle">@nadia.numbers</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener" style="--c: var(--yellow)">
+              <span class="social-name">Instagram</span>
+              <span class="social-handle">@nadia.numbers</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="social" href="https://www.linkedin.com/" target="_blank" rel="noopener" style="--c: var(--lime)">
+              <span class="social-name">LinkedIn</span>
+              <span class="social-handle">Nadia Rahma, CPA</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-band" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Receipts kept</span><span>Taxes filed</span><span>Vibes immaculate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-inner">
+      <p class="signoff">
+        Thanks for stopping by. Go hydrate, keep your receipts, and slide into my inbox when you're ready to make your money make sense.
+      </p>
+      <div class="footer-row">
+        <p>© <span id="year">2026</span> Nadia Rahma, CPA. Numbers you can trust, energy you can't ignore.</p>
+        <a class="to-top" href="#hero">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
